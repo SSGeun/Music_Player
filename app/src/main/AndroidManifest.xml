@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,9 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Music_Player"
         tools:targetApi="31">
+
+        <!-- Main Activity, Play List -->
         <activity
-            android:name=".PlayList.PlayListActivity"
+            android:name=".PlayListActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +29,13 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <!-- Sub Activity, Player -->
+        <activity android:name=".PlayerActivity" />
+
+        <!-- Music Service -->
+        <service android:name=".MusicService" />
+
     </application>
 
 </manifest>

@@ -11,7 +11,12 @@
 
     <color name="main_background">#000000</color>
     <color name="header">#FFFFFF</color>
-    <color name="song_name">#FFFFFF</color>
-    <color name="song_writer">#969696</color>
-    <color name="song_time">#969696</color>
+    <color name="music_name">#FFFFFF</color>
+    <color name="music_singer">#969696</color>
+    <color name="music_duration">#969696</color>
+    <color name="selected_music">#27A6FF</color>
+
+    <color name="seek_bar_background">#969696</color>
+
+    <color name="now_playing_background">#212121</color>
 </resources>
