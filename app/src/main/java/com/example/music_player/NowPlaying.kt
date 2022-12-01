@@ -75,8 +75,6 @@ class NowPlaying : Fragment(), MediaPlayer.OnCompletionListener {
             playMusic()
         }
 
-
-
         // 이전 음악, 버튼 클릭 이벤트
         binding.musicPreviousBtnNP.setOnClickListener {
 
